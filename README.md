@@ -1,11 +1,11 @@
 # Tour-Mate-App
 This a traveling helper app that will make your tour more relaxing.
-<br /> *Download APK File Click* [here](https://drive.google.com/drive/folders/1-cD_EGZoG1yAOOjfE7uGWynHYNAGpbwV)
+<br /> *Download APK File Click* :point_right: [here](https://drive.google.com/drive/folders/1-cD_EGZoG1yAOOjfE7uGWynHYNAGpbwV)
 
 
 
 ## Features 
-<br />1. Register and Login -> Multiple user can use one app in same device
+<br />1. Register and Login :arrow_right: Multiple user can use one app in same device
 <br />2. Online and Offline facility.
 <br />3. Create Event, Manage it Edit and Delete and Modify.
 <br />4. Todo List
