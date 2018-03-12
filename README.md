@@ -23,8 +23,8 @@
 - Weather and Forecast info.
   - Current Weather
   - Forecast Weather
-  - 7 days 
-  - 14 days
+    - 7 days 
+    - 14 days
 - Map, Direction and Geofence.
   - Serarch Places
   - Distance
