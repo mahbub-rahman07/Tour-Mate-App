@@ -1,6 +1,6 @@
 # Tour-Mate-App
 This a traveling helper app that will make your tour more relaxing.
-<br /> *Download APK File Click* :point_right: [here](https://drive.google.com/drive/folders/1-cD_EGZoG1yAOOjfE7uGWynHYNAGpbwV)
+<br /> *Download APK File Click* :point_right: [here](https://drive.google.com/open?id=1SIO_xkc1_yxnb7OyaIMDBOqVHZ6Cyu5Q)
 
 
 
