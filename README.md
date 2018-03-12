@@ -1,5 +1,5 @@
-# Tour-Mate-App
-This a traveling helper app that will make your tour more relaxing.
+# Tour-Mate-App :airplane:
+##### *Make your tour enjoyable and more relaxing.*:relaxed:
 <br /> *Download APK File Click* :point_right: [here](https://drive.google.com/open?id=1SIO_xkc1_yxnb7OyaIMDBOqVHZ6Cyu5Q)
 
 
