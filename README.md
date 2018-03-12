@@ -5,13 +5,34 @@
 
 
 ## Features 
-- Register and Login :arrow_right: Multiple user can use one app in same device
-- Online and Offline facility.
-- Create Event, Manage it Edit and Delete and Modify.
+- Authentication :arrow_right: Multiple user can use one app in same device
+  - Register
+  - Login
+- Access facility.
+  - Online
+  - Offline
+- Event Management.
+  - Create Event
+  - Edit Event
+  - Update Event
+  - Delete Event
 - Todo List
+  - Add task
+  - Edit task
+  - Delete task
 - Weather and Forecast info.
+  - Current Weather
+  - Forecast Weather
+  - 7 days 
+  - 14 days
 - Map, Direction and Geofence.
+  - Serarch Places
+  - Distance
+  - Alternate Ways
+  - Notify Place area enter or exit 
 - Nearby Places.
+  - Place nearby place by category
+  - Place it on map and show direction
 
 ## API <br />
 1. Weather API from openweather.org <br />
