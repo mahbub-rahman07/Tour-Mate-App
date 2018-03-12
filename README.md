@@ -23,8 +23,8 @@
 - Weather and Forecast info.
   - Current Weather
   - Forecast Weather
-    - 7 days 
-    - 14 days
+    - :ballot_box_with_check: 7 days 
+    - :white_check_mark: 14 days
 - Map, Direction and Geofence.
   - Serarch Places
   - Distance
