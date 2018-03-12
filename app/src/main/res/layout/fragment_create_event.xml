@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="16dp"
+    tools:context="com.mahbub.tourmate.fragments.CreateEventFragment">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event Name: "
+            android:layout_margin="10dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Loc.: "
+            android:layout_margin="10dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dest. Loc.: "
+            android:gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estimate Budget: "
+            android:layout_margin="10dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No.of.People: "
+            android:layout_margin="10dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sart Date: "
+            android:layout_margin="10dp"
+            android:textSize="16sp"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="2"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/title_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Event"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/event_name_edit"
+       android:hint="enter event name"
+       android:gravity="center_horizontal"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/starting_loc_edit"
+        android:hint="starting location name"
+        android:gravity="center_horizontal"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/destination_loc_edit"
+        android:hint="destination location name"
+        android:gravity="center_horizontal"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/budget_edit"
+        android:hint="estimated budget"
+        android:inputType="numberDecimal"
+        android:gravity="center_horizontal"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/members_edit"
+        android:hint="number of people"
+        android:inputType="number"
+        android:gravity="center_horizontal"/>
+
+  <Button
+      android:layout_marginTop="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/departure_time_btn"
+      android:hint="07/02/18"
+      android:gravity="center"
+      android:background="@drawable/shape_button"
+      />
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/save_event_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save event"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+
+</LinearLayout>

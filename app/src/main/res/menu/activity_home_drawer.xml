@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/event"
+            android:title="Event" />
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/todo"
+            android:title="Todo" />
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/weather_icon_tw"
+            android:title="Weather" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/map"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_nearby"
+            android:icon="@drawable/nearby"
+            android:title="Nearby" />
+        <item
+            android:id="@+id/nav_currency_convert"
+            android:icon="@drawable/currency"
+            android:title="Currency Converter" />
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Tools" />-->
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about_me"
+                android:icon="@drawable/about_me"
+                android:title="Contact Us" />
+
+        </menu>
+    </item>
+
+</menu>

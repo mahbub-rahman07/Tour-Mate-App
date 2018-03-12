@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/forecast_key"
+        android:title="Fore Cast 14 days"
+        android:summary="Forecast for next 14 days will be displayed"/>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/celsious_key"
+        android:title="Show in Celsius"
+        android:summary="Temperature will be shown in Celsius"/>
+
+</PreferenceScreen>

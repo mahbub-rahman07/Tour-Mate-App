@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/normal_iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/default_map" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="normal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/default_view_iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/tarrient"
+            />
+
+        <TextView
+            android:id="@+id/default_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="terrain"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/satellite_iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/satellite" />
+
+        <TextView
+            android:id="@+id/satellite_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="satellite" />
+
+</LinearLayout>
+</LinearLayout>

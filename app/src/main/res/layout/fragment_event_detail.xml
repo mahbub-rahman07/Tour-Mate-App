@@ -1,0 +1,78 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mahbub.tourmate.fragments.EventDetailFragment">
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/event_title_tv"
+        android:text="Cox's Bazar"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/budget_status_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Budget status(1800/25000)"
+        android:gravity="center"
+        android:textSize="18sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/progress_status_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="15%"
+            android:layout_marginTop="5dp"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/MyProgressBarTwo"
+        android:theme="@style/MyProgressBarTwo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:indeterminate="false"
+        android:max="100"
+        android:minHeight="25dp"
+        android:minWidth="200dp"
+        android:progress="0"
+        android:secondaryProgress="0"
+        android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="100%"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+        android:background="@drawable/bac_shape"
+        android:id="@+id/event_detail_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:padding="6dp"
+        android:textColor="#666"/>
+    <ExpandableListView
+        android:id="@+id/event_expendble_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bac_shape"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1.5dp"/>
+
+
+</LinearLayout>

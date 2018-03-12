@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="com.mahbub.tourmate.fragments.AddTodoFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/shape_sqr"/>
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTast"
+        android:hint="task details"
+        android:padding="10dp"
+        />
+        <Button
+            android:layout_margin="16dp"
+            android:background="@drawable/shape_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_pick_btn"
+            android:text="9:30 AM"
+            android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_margin="16dp"
+        android:background="@drawable/shape_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_pick_btn"
+        android:text="11/02/18"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/add_todo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

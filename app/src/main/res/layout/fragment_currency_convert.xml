@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context="com.mahbub.tourmate.fragments.CurrencyConvertFragment">
+
+
+    <TextView
+        android:id="@+id/title_currency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Currency Converter"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shape_sqr"
+        />
+
+        <EditText
+            android:layout_marginTop="100dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter amount"
+            android:id="@+id/from_money_edit"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/title_currency"/>
+        <Spinner
+            android:layout_marginTop="100dp"
+            android:id="@+id/from_money_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/countries_money"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/from_money_edit"
+            android:layout_below="@+id/title_currency"/>
+
+   <TextView
+       android:id="@+id/to_tv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="TO"
+       android:layout_below="@+id/from_money_edit"
+       android:gravity="center_horizontal"
+       android:layout_marginTop="30dp"  />
+    <EditText
+        android:layout_marginTop="16dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Resultant amount"
+        android:id="@+id/to_money_edit"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/to_tv"/>
+    <Spinner
+        android:id="@+id/to_money_spinner"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/countries_money"
+        android:layout_toRightOf="@+id/to_money_edit"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/to_tv"/>
+
+    <Button
+        android:id="@+id/convert_money_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="convert"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_button"
+        android:layout_below="@+id/to_money_edit"
+       />
+
+</RelativeLayout>

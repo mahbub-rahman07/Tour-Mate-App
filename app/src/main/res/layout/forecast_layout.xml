@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/shape_weather">
+
+    <TextView
+        android:id="@+id/time_day_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="clip_vertical"
+        android:text="Wed 3 Jan\nToday "
+        android:textSize="18sp"
+        android:textColor="@color/colorWeather"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time_day_tv"
+        app:srcCompat="@drawable/clear" />
+
+    <TextView
+        android:id="@+id/max_weather_tv"
+        android:layout_width="0dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/colorActivatedHighlight"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:text="Max: 24.3C"
+        android:textSize="18sp"
+        android:textColor="@color/colorWeather"
+        app:layout_constraintEnd_toStartOf="@+id/min_weather_tv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/min_weather_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:textSize="18sp"
+        android:text="Min: 18.5C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/colorWeather" />
+
+    <TextView
+        android:id="@+id/wind_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Wind 4.55 m/s, 0° "
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/cloud_prerssure_tv"
+        app:layout_constraintTop_toBottomOf="@+id/max_weather_tv"
+        android:textColor="@color/colorWeather" />
+
+    <TextView
+        android:id="@+id/cloud_prerssure_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="clouds: 0 %,  1023.54 hpa"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/time_day_tv"
+        app:layout_constraintTop_toBottomOf="@+id/wind_tv"
+        android:textColor="@color/colorWeather"/>
+
+    <TextView
+        android:id="@+id/heumidity_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Humidity 63%"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/cloud_prerssure_tv"
+        app:layout_constraintTop_toBottomOf="@+id/cloud_prerssure_tv"
+        android:textColor="@color/colorWeather" />
+
+    <TextView
+        android:id="@+id/monTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="277.42°C"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:textColor="@color/colorWeather" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="morning"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/monTv"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        android:textColor="@color/colorWeather"/>
+
+    <TextView
+        android:id="@+id/dayTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="277.42°C"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/monTv"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:textColor="@color/colorWeather" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:text="day"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/dayTv"
+        app:layout_constraintTop_toTopOf="@+id/textView6"
+        android:textColor="@color/colorWeather" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="4dp"
+        android:text="evening"
+        android:textAlignment="center"
+        android:textColor="@color/colorWeather"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/eveTv"
+        app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/eveTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="277.42°C"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/dayTv"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        android:textColor="@color/colorWeather" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="night"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/nightTv"
+        app:layout_constraintTop_toBottomOf="@+id/snowTv"
+        android:textColor="@color/colorWeather" />
+
+    <TextView
+        android:id="@+id/rainTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="rain:0.98"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/snowTv"
+        app:layout_constraintStart_toStartOf="@+id/heumidity_tv"
+        app:layout_constraintTop_toBottomOf="@+id/heumidity_tv"
+        android:textColor="@color/colorWeather"/>
+
+    <TextView
+        android:id="@+id/snowTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="8dp"
+        android:text="snow:0.01"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rainTv"
+        app:layout_constraintTop_toTopOf="@+id/rainTv"
+        android:textColor="@color/colorWeather" />
+
+    <TextView
+        android:id="@+id/nightTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="277.42°C"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/eveTv"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        android:textColor="@color/colorWeather" />
+
+</android.support.constraint.ConstraintLayout>

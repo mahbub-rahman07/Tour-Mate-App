@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="9dp"
+    android:elevation="9dp"
+    android:layout_margin="6dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/event_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sylhet Tour"
+        android:textSize="24sp"
+        android:textColor="#333"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shape"/>
+    <!--android:background="@drawable/shape_sqr"-->
+    <TextView
+        android:id="@+id/creating_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sylhet Tour"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/event_name_tv"
+        android:layout_marginTop="6dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/staring_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sylhet Tour"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/creating_time_tv"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/days_left_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/staring_time_tv"
+        android:layout_alignBottom="@+id/staring_time_tv"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="4 days left"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
+</android.support.v7.widget.CardView>

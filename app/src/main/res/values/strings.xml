@@ -1,0 +1,70 @@
+<resources>
+    <!--api key-->
+    <string name="wather_api_key">0d383ae00da294a620afc0559c64365c</string>
+    <string name="place_api_key">AIzaSyB4NdVYZNHS5TEcWWSksCmrfMzLdDXo4ck</string>
+    <string name="map_api_key">AIzaSyD7FinoGzw49nL3GRlzWyrmEvhRY_F_yTA</string>
+    <string name="place_picker_key">AIzaSyCPQKrAHz89R_gos9HKBNlRXBu1gBA9_xo</string>
+    <string name="direction_api">AIzaSyAKcjV7poB0Uepg8VAaoFwIQXzxqGaPYio</string>
+
+    <string name="app_name">TOUR MATE</string>
+    <string name="subtitle_app">a true traveling mate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings related to login -->
+    <string name="error_invalid_name">This name is too short</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_email_already_registered">This email already registered</string>
+    <string name="application_name">TOUR MATE</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="grid_key">gird_prefs_key</string>
+
+    <!--Weather-->
+    <string name="current">Current</string>
+    <string name="forecast">Forecast</string>
+    <string name="gird_prefs_key">gird_prefs_key</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="forecast_key">forecast_key</string>
+    <string name="celsious_key">celsius_key</string>
+    <string name="search_hint">enter city name</string>
+
+
+    <string-array name="cities">
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Khulna</item>
+        <item>Rajsahi</item>
+        <item>Sylhet</item>
+        <item>Barishal</item>
+
+    </string-array>
+
+    <string-array name="countries_money">
+        <item>US Dolar</item>
+        <item>EURO</item>
+        <item>Algerian Dinar</item>
+        <item>Indian Rupee</item>
+        <item>Indonesian Rupiah</item>
+        <item>Bangladeshi Taka</item>
+        <item>Malaysian Ringgit</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="my_mail">email: mahbubabid8@gmail.com</string>
+    <string name="my_phone">phone: 01911243130</string>
+
+
+</resources>

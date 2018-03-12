@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    tools:context="com.mahbub.tourmate.fragments.MapFragment">
+
+    <fragment
+        android:id="@+id/mapContainer"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageButton
+        android:id="@+id/search_button_map"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/search"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/search_button_shape"
+        android:layout_alignParentLeft="true"/>
+    <ImageButton
+        android:src="@drawable/next_route"
+        android:id="@+id/next_route_ib"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"/>
+    <ImageButton
+        android:src="@drawable/direction"
+        android:id="@+id/direction_show_ib"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/next_route_ib"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="16dp"/>
+    <ImageButton
+        android:src="@drawable/driving"
+        android:id="@+id/driving_ib"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="60dp"
+       />
+    <ImageButton
+        android:src="@drawable/walking"
+        android:id="@+id/walking_ib"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@+id/driving_ib"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:id="@+id/map_view_btn"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="6dp"
+        android:text="map"
+        android:background="@drawable/shape_button"/>
+
+
+
+</RelativeLayout>

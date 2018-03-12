@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:visible="true" android:id="@+id/action_temp"
+        android:titleCondensed="Temperature"
+        android:title="Temperature"
+        android:enabled="true">
+        <menu>
+            <group
+            android:checkableBehavior="single">
+            <item android:id="@+id/celcius"
+                android:title="C">
+            </item>
+            <item android:id="@+id/fahrenheit"
+                android:title="F">
+            </item>
+            </group>
+        </menu>
+    </item>
+    <item android:visible="true" android:id="@+id/action_forcast"
+        android:titleCondensed="Forecast"
+        android:title="Forecast"
+        android:enabled="true">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item android:id="@+id/seven" android:title="7 Days">
+                </item>
+                <item android:id="@+id/fourteen" android:title="14 Days">
+                </item>
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
