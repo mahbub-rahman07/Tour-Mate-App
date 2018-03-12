@@ -5,13 +5,13 @@ This a traveling helper app that will make your tour more relaxing.
 
 
 ## Features 
-<br />1. Register and Login :arrow_right: Multiple user can use one app in same device
-<br />2. Online and Offline facility.
-<br />3. Create Event, Manage it Edit and Delete and Modify.
-<br />4. Todo List
-<br />5. Weather and Forecast info.
-<br />6. Map, Direction and Geofence.
-<br />7. Nearby Places.
+- Register and Login :arrow_right: Multiple user can use one app in same device
+- Online and Offline facility.
+- Create Event, Manage it Edit and Delete and Modify.
+- Todo List
+- Weather and Forecast info.
+- Map, Direction and Geofence.
+- Nearby Places.
 
 ## API <br />
 1. Weather API from openweather.org <br />
